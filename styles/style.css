@@ -1,0 +1,144 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/*.............. navigation bar style ..................... */
+.header-section {
+    background-color:#2D25A0;
+}
+.navigations {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 42px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 67px;
+}
+.navigation-bar {
+    align-items: center;
+    width: 1160px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+.first-option {
+    display: flex;
+    padding-left: 156px;
+}
+.first-option p {
+    
+    margin-right: 30px;
+}
+.first-option a {
+
+    text-decoration: none;
+}
+.first-option a:hover {
+    background-color: rgb(185, 190, 190);
+    padding: 15px;
+}
+#font-color {
+    color: white;
+}
+.login-option a {
+    text-decoration: none;
+}
+.login-option {
+    justify-content: center;
+    width: 123px;
+    height: 44px;
+    align-items: center;
+    display: flex;
+    background-color: #E02C6D;
+}
+.banner-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    color: white;
+}
+.writting {
+    margin-left: 156px;
+}
+.fa-sign-in-alt {
+    margin-right: 8px;
+}
+.watch-live {
+    width: 168px;
+    height: 44px;
+    background-color:#E02C6D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.watch-live p {
+    margin-right: 8px;
+}
+.watch-live a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.banner:hover {
+    transition: ease-in-out 1.5s;
+    transform: rotate(45deg);
+}
+.banner img {
+    width: 556px;
+    height: 438px;
+}
+/* ..................players info grid......................  */
+.player-info {
+    
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 210px;
+    grid-row-gap: 30px;
+}
+article {
+    box-shadow: 0 0 25px rgba(145, 142, 142, 0.5);
+}
+.player-photo {
+    padding: 15px;
+}
+.player-photo img {
+    width: 300px;
+    height: 256px;
+}
+.description {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/* Footer section  */
+.football-logo img {
+    width: 484px;
+    height: 110px;
+}
+.footer-section {
+    margin-top: 158px;
+    margin-bottom: 63px;
+    height: 213px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.awesome-fonts i {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 14px;
+}
+/* media query  */
+@media only screen and (max-width:688px) {
+    .player-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+}
